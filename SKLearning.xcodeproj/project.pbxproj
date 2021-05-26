@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378D45F9265EB509009F11BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D45F8265EB509009F11BA /* AppDelegate.swift */; };
+		378D45FB265EB509009F11BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D45FA265EB509009F11BA /* GameViewController.swift */; };
+		378D45FE265EB509009F11BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D45FC265EB509009F11BA /* Main.storyboard */; };
+		378D4601265EB509009F11BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D45FF265EB509009F11BA /* LaunchScreen.storyboard */; };
+		378D4606265EB509009F11BA /* SKLearning.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 378D4605265EB509009F11BA /* SKLearning.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		378D460C265EB509009F11BA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D460A265EB509009F11BA /* Interface.storyboard */; };
+		378D4613265EB509009F11BA /* SKLearning Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 378D4612265EB509009F11BA /* SKLearning Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		378D4618265EB509009F11BA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D4617265EB509009F11BA /* InterfaceController.swift */; };
+		378D461A265EB509009F11BA /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D4619265EB509009F11BA /* ExtensionDelegate.swift */; };
+		378D4623265EB509009F11BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D4622265EB509009F11BA /* AppDelegate.swift */; };
+		378D4625265EB509009F11BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D4624265EB509009F11BA /* GameViewController.swift */; };
+		378D4628265EB509009F11BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D4626265EB509009F11BA /* Main.storyboard */; };
+		378D462B265EB509009F11BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D4629265EB509009F11BA /* LaunchScreen.storyboard */; };
+		378D4634265EB509009F11BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D4633265EB509009F11BA /* AppDelegate.swift */; };
+		378D4636265EB509009F11BA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D4635265EB509009F11BA /* GameViewController.swift */; };
+		378D4639265EB509009F11BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378D4637265EB509009F11BA /* Main.storyboard */; };
+		378D463F265EB509009F11BA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 378D45EE265EB505009F11BA /* GameScene.sks */; };
+		378D4640265EB509009F11BA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 378D45EE265EB505009F11BA /* GameScene.sks */; };
+		378D4641265EB509009F11BA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 378D45EE265EB505009F11BA /* GameScene.sks */; };
+		378D4642265EB509009F11BA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 378D45EE265EB505009F11BA /* GameScene.sks */; };
+		378D4643265EB509009F11BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D45EF265EB505009F11BA /* GameScene.swift */; };
+		378D4644265EB509009F11BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D45EF265EB505009F11BA /* GameScene.swift */; };
+		378D4645265EB509009F11BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D45EF265EB505009F11BA /* GameScene.swift */; };
+		378D4646265EB509009F11BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378D45EF265EB505009F11BA /* GameScene.swift */; };
+		378D4647265EB509009F11BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378D45F0265EB509009F11BA /* Assets.xcassets */; };
+		378D4648265EB509009F11BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378D45F0265EB509009F11BA /* Assets.xcassets */; };
+		378D4649265EB509009F11BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378D45F0265EB509009F11BA /* Assets.xcassets */; };
+		378D464A265EB509009F11BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378D45F0265EB509009F11BA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		378D4607265EB509009F11BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378D45E8265EB504009F11BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D4604265EB509009F11BA;
+			remoteInfo = "SKLearning watchOS App";
+		};
+		378D4614265EB509009F11BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 378D45E8265EB504009F11BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378D4611265EB509009F11BA;
+			remoteInfo = "SKLearning watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		378D4650265EB509009F11BA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				378D4613265EB509009F11BA /* SKLearning Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D4654265EB509009F11BA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				378D4606265EB509009F11BA /* SKLearning.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		378D45EE265EB505009F11BA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		378D45EF265EB505009F11BA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		378D45F0265EB509009F11BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378D45F5265EB509009F11BA /* SKLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D45F8265EB509009F11BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378D45FA265EB509009F11BA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		378D45FD265EB509009F11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378D4600265EB509009F11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378D4602265EB509009F11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378D4605265EB509009F11BA /* SKLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D460B265EB509009F11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		378D460D265EB509009F11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378D4612265EB509009F11BA /* SKLearning Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SKLearning Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D4617265EB509009F11BA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		378D4619265EB509009F11BA /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		378D461B265EB509009F11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378D4620265EB509009F11BA /* SKLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D4622265EB509009F11BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378D4624265EB509009F11BA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		378D4627265EB509009F11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378D462A265EB509009F11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378D462C265EB509009F11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378D4631265EB509009F11BA /* SKLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378D4633265EB509009F11BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		378D4635265EB509009F11BA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		378D4638265EB509009F11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378D463A265EB509009F11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378D463B265EB509009F11BA /* SKLearning_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SKLearning_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378D45F2265EB509009F11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D460F265EB509009F11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D461D265EB509009F11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D462E265EB509009F11BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378D45E7265EB504009F11BA = {
+			isa = PBXGroup;
+			children = (
+				378D45EC265EB505009F11BA /* SKLearning Shared */,
+				378D45F7265EB509009F11BA /* SKLearning iOS */,
+				378D4609265EB509009F11BA /* SKLearning watchOS App */,
+				378D4616265EB509009F11BA /* SKLearning watchOS App Extension */,
+				378D4621265EB509009F11BA /* SKLearning tvOS */,
+				378D4632265EB509009F11BA /* SKLearning macOS */,
+				378D45F6265EB509009F11BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378D45EC265EB505009F11BA /* SKLearning Shared */ = {
+			isa = PBXGroup;
+			children = (
+				378D45EE265EB505009F11BA /* GameScene.sks */,
+				378D45EF265EB505009F11BA /* GameScene.swift */,
+				378D45F0265EB509009F11BA /* Assets.xcassets */,
+			);
+			path = "SKLearning Shared";
+			sourceTree = "<group>";
+		};
+		378D45F6265EB509009F11BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378D45F5265EB509009F11BA /* SKLearning.app */,
+				378D4605265EB509009F11BA /* SKLearning.app */,
+				378D4612265EB509009F11BA /* SKLearning Extension.appex */,
+				378D4620265EB509009F11BA /* SKLearning.app */,
+				378D4631265EB509009F11BA /* SKLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378D45F7265EB509009F11BA /* SKLearning iOS */ = {
+			isa = PBXGroup;
+			children = (
+				378D45F8265EB509009F11BA /* AppDelegate.swift */,
+				378D45FA265EB509009F11BA /* GameViewController.swift */,
+				378D45FC265EB509009F11BA /* Main.storyboard */,
+				378D45FF265EB509009F11BA /* LaunchScreen.storyboard */,
+				378D4602265EB509009F11BA /* Info.plist */,
+			);
+			path = "SKLearning iOS";
+			sourceTree = "<group>";
+		};
+		378D4609265EB509009F11BA /* SKLearning watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				378D460A265EB509009F11BA /* Interface.storyboard */,
+				378D460D265EB509009F11BA /* Info.plist */,
+			);
+			path = "SKLearning watchOS App";
+			sourceTree = "<group>";
+		};
+		378D4616265EB509009F11BA /* SKLearning watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				378D4617265EB509009F11BA /* InterfaceController.swift */,
+				378D4619265EB509009F11BA /* ExtensionDelegate.swift */,
+				378D461B265EB509009F11BA /* Info.plist */,
+			);
+			path = "SKLearning watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		378D4621265EB509009F11BA /* SKLearning tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				378D4622265EB509009F11BA /* AppDelegate.swift */,
+				378D4624265EB509009F11BA /* GameViewController.swift */,
+				378D4626265EB509009F11BA /* Main.storyboard */,
+				378D4629265EB509009F11BA /* LaunchScreen.storyboard */,
+				378D462C265EB509009F11BA /* Info.plist */,
+			);
+			path = "SKLearning tvOS";
+			sourceTree = "<group>";
+		};
+		378D4632265EB509009F11BA /* SKLearning macOS */ = {
+			isa = PBXGroup;
+			children = (
+				378D4633265EB509009F11BA /* AppDelegate.swift */,
+				378D4635265EB509009F11BA /* GameViewController.swift */,
+				378D4637265EB509009F11BA /* Main.storyboard */,
+				378D463A265EB509009F11BA /* Info.plist */,
+				378D463B265EB509009F11BA /* SKLearning_macOS.entitlements */,
+			);
+			path = "SKLearning macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378D45F4265EB509009F11BA /* SKLearning iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D4655265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning iOS" */;
+			buildPhases = (
+				378D45F1265EB509009F11BA /* Sources */,
+				378D45F2265EB509009F11BA /* Frameworks */,
+				378D45F3265EB509009F11BA /* Resources */,
+				378D4654265EB509009F11BA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378D4608265EB509009F11BA /* PBXTargetDependency */,
+			);
+			name = "SKLearning iOS";
+			productName = "SKLearning iOS";
+			productReference = 378D45F5265EB509009F11BA /* SKLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378D4604265EB509009F11BA /* SKLearning watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D4651265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning watchOS App" */;
+			buildPhases = (
+				378D4603265EB509009F11BA /* Resources */,
+				378D4650265EB509009F11BA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378D4615265EB509009F11BA /* PBXTargetDependency */,
+			);
+			name = "SKLearning watchOS App";
+			productName = "SKLearning watchOS App";
+			productReference = 378D4605265EB509009F11BA /* SKLearning.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		378D4611265EB509009F11BA /* SKLearning watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D464D265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning watchOS App Extension" */;
+			buildPhases = (
+				378D460E265EB509009F11BA /* Sources */,
+				378D460F265EB509009F11BA /* Frameworks */,
+				378D4610265EB509009F11BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKLearning watchOS App Extension";
+			productName = "SKLearning watchOS App Extension";
+			productReference = 378D4612265EB509009F11BA /* SKLearning Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		378D461F265EB509009F11BA /* SKLearning tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D4658265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning tvOS" */;
+			buildPhases = (
+				378D461C265EB509009F11BA /* Sources */,
+				378D461D265EB509009F11BA /* Frameworks */,
+				378D461E265EB509009F11BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKLearning tvOS";
+			productName = "SKLearning tvOS";
+			productReference = 378D4620265EB509009F11BA /* SKLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		378D4630265EB509009F11BA /* SKLearning macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378D465B265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning macOS" */;
+			buildPhases = (
+				378D462D265EB509009F11BA /* Sources */,
+				378D462E265EB509009F11BA /* Frameworks */,
+				378D462F265EB509009F11BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKLearning macOS";
+			productName = "SKLearning macOS";
+			productReference = 378D4631265EB509009F11BA /* SKLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378D45E8265EB504009F11BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					378D45F4265EB509009F11BA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					378D4604265EB509009F11BA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					378D4611265EB509009F11BA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					378D461F265EB509009F11BA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					378D4630265EB509009F11BA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 378D45EB265EB504009F11BA /* Build configuration list for PBXProject "SKLearning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378D45E7265EB504009F11BA;
+			productRefGroup = 378D45F6265EB509009F11BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378D45F4265EB509009F11BA /* SKLearning iOS */,
+				378D4604265EB509009F11BA /* SKLearning watchOS App */,
+				378D4611265EB509009F11BA /* SKLearning watchOS App Extension */,
+				378D461F265EB509009F11BA /* SKLearning tvOS */,
+				378D4630265EB509009F11BA /* SKLearning macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378D45F3265EB509009F11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D463F265EB509009F11BA /* GameScene.sks in Resources */,
+				378D45FE265EB509009F11BA /* Main.storyboard in Resources */,
+				378D4601265EB509009F11BA /* LaunchScreen.storyboard in Resources */,
+				378D4647265EB509009F11BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D4603265EB509009F11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4648265EB509009F11BA /* Assets.xcassets in Resources */,
+				378D460C265EB509009F11BA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D4610265EB509009F11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4640265EB509009F11BA /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D461E265EB509009F11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4641265EB509009F11BA /* GameScene.sks in Resources */,
+				378D4628265EB509009F11BA /* Main.storyboard in Resources */,
+				378D462B265EB509009F11BA /* LaunchScreen.storyboard in Resources */,
+				378D4649265EB509009F11BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D462F265EB509009F11BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4639265EB509009F11BA /* Main.storyboard in Resources */,
+				378D4642265EB509009F11BA /* GameScene.sks in Resources */,
+				378D464A265EB509009F11BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378D45F1265EB509009F11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4643265EB509009F11BA /* GameScene.swift in Sources */,
+				378D45FB265EB509009F11BA /* GameViewController.swift in Sources */,
+				378D45F9265EB509009F11BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D460E265EB509009F11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4644265EB509009F11BA /* GameScene.swift in Sources */,
+				378D461A265EB509009F11BA /* ExtensionDelegate.swift in Sources */,
+				378D4618265EB509009F11BA /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D461C265EB509009F11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4645265EB509009F11BA /* GameScene.swift in Sources */,
+				378D4625265EB509009F11BA /* GameViewController.swift in Sources */,
+				378D4623265EB509009F11BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		378D462D265EB509009F11BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378D4646265EB509009F11BA /* GameScene.swift in Sources */,
+				378D4636265EB509009F11BA /* GameViewController.swift in Sources */,
+				378D4634265EB509009F11BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		378D4608265EB509009F11BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378D4604265EB509009F11BA /* SKLearning watchOS App */;
+			targetProxy = 378D4607265EB509009F11BA /* PBXContainerItemProxy */;
+		};
+		378D4615265EB509009F11BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 378D4611265EB509009F11BA /* SKLearning watchOS App Extension */;
+			targetProxy = 378D4614265EB509009F11BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		378D45FC265EB509009F11BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D45FD265EB509009F11BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378D45FF265EB509009F11BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D4600265EB509009F11BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		378D460A265EB509009F11BA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D460B265EB509009F11BA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		378D4626265EB509009F11BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D4627265EB509009F11BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378D4629265EB509009F11BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D462A265EB509009F11BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		378D4637265EB509009F11BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378D4638265EB509009F11BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378D464B265EB509009F11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		378D464C265EB509009F11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		378D464E265EB509009F11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SKLearning watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "SKLearning Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		378D464F265EB509009F11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SKLearning watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "SKLearning Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		378D4652265EB509009F11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = SKLearning_Extension;
+				INFOPLIST_FILE = "SKLearning watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning.watchkitapp;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		378D4653265EB509009F11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = SKLearning_Extension;
+				INFOPLIST_FILE = "SKLearning watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning.watchkitapp;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		378D4656265EB509009F11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SKLearning iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378D4657265EB509009F11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SKLearning iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378D4659265EB509009F11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SKLearning tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		378D465A265EB509009F11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SKLearning tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378D465C265EB509009F11BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SKLearning macOS/SKLearning_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SKLearning macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		378D465D265EB509009F11BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SKLearning macOS/SKLearning_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SKLearning macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kshitizsaxena.SKLearning;
+				PRODUCT_NAME = SKLearning;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378D45EB265EB504009F11BA /* Build configuration list for PBXProject "SKLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D464B265EB509009F11BA /* Debug */,
+				378D464C265EB509009F11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D464D265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D464E265EB509009F11BA /* Debug */,
+				378D464F265EB509009F11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D4651265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D4652265EB509009F11BA /* Debug */,
+				378D4653265EB509009F11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D4655265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D4656265EB509009F11BA /* Debug */,
+				378D4657265EB509009F11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D4658265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D4659265EB509009F11BA /* Debug */,
+				378D465A265EB509009F11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378D465B265EB509009F11BA /* Build configuration list for PBXNativeTarget "SKLearning macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378D465C265EB509009F11BA /* Debug */,
+				378D465D265EB509009F11BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378D45E8265EB504009F11BA /* Project object */;
+}
